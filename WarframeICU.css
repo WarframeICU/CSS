@@ -1,21 +1,21 @@
-/* 滚动条显示样式 */  
+/* 滚动条显示样式 */
 ::-webkit-scrollbar-thumb{
-   background-color:#black;  /*更改喜欢的十六进制颜色*/
-   height:50px;  
-   outline-offset:-2px;  
-   outline:2px solid #fff;  
-   -webkit-border-radius:4px;  
-   border: 2px solid #fff;  
-}  
-/* 滚动条大小 */ 
-::-webkit-scrollbar{  
-   width:8px;  
-   height:8px;  
-}  
-/* 滚动框背景样式 */  
-::-webkit-scrollbar-track-piece{  
-   background-color:#black;  
-   -webkit-border-radius:0;  
+    background-color:#black;  /*更改喜欢的十六进制颜色*/
+    height:50px;
+    outline-offset:-2px;
+    outline:2px solid #fff;
+    -webkit-border-radius:4px;
+    border: 2px solid #fff;
+}
+/* 滚动条大小 */
+::-webkit-scrollbar{
+    width:8px;
+    height:8px;
+}
+/* 滚动框背景样式 */
+::-webkit-scrollbar-track-piece{
+    background-color:#black;
+    -webkit-border-radius:0;
 }
 /* UP */
 #Up {
@@ -28,35 +28,35 @@
     width: 75px; // or custom value
 }
 /* 固定左侧标签栏 */
-		@media (min-width: 992px) {
-			:not(.TagsPage-nav).sideNav,
-			:not(.TagsPage-nav).sideNav>ul {
-				width: 190px;
-				position: sticky;
-				top: 80px;
-			}
-			.App {
-				overflow-x: visible;
-			}
-		}
+@media (min-width: 992px) {
+    :not(.TagsPage-nav).sideNav,
+    :not(.TagsPage-nav).sideNav>ul {
+        width: 190px;
+        position: sticky;
+        top: 80px;
+    }
+    .App {
+        overflow-x: visible;
+    }
+}
 /* 更改回复和赞为按钮 */
 .item-like .Button--link .Button-label,.item-reply .Button--link .Button-label {
-	display:none;
+    display:none;
 }
 .item-like .Button:before {
-	font-family:'Font Awesome 5 Free';
-	font-weight:600;
-	font-size:14px;
-	content:'\f164';
-	vertical-align:-1px;
+    font-family:'Font Awesome 5 Free';
+    font-weight:600;
+    font-size:14px;
+    content:'\f164';
+    vertical-align:-1px;
 }
 .item-reply .Button--link:before {
-	font-family:'Font Awesome 5 Free';
-	font-weight:600;
-	font-size:15px;
-	content:'\f3e5';
-	margin-right:4px;
-	vertical-align:0px;
+    font-family:'Font Awesome 5 Free';
+    font-weight:600;
+    font-size:15px;
+    content:'\f3e5';
+    margin-right:4px;
+    vertical-align:0px;
 }
 /* 隐藏公告X按钮 */
 .Hero-close {
@@ -64,39 +64,39 @@
 }
 /* 隐藏手机热门 */
 @media (max-width: 767px) {
-	.AfruxWidgets-Widget.hotDiscussions-widget {
-		display: none;
-	}
+    .AfruxWidgets-Widget.hotDiscussions-widget {
+        display: none;
+    }
 }
 /* 隐藏手机动态 */
 @media (max-width: 767px) {
-	.AfruxWidgets-Widget.lastposts-widget {
-		display: none;
-	}
+    .AfruxWidgets-Widget.lastposts-widget {
+        display: none;
+    }
 }
 /* 隐藏手机倒计时 */
 @media (max-width: 767px) {
-	.AfruxWidgets-Widget.EventsCountDown-widget.AfruxWidgets-Widget--flat {
-		display: none;
-	}
+    .AfruxWidgets-Widget.EventsCountDown-widget.AfruxWidgets-Widget--flat {
+        display: none;
+    }
 }
 /* 隐藏手机月度水王 */
 @media (max-width: 767px) {
-	.AfruxWidgets-Widget.Afrux-TopPostersWidget {
-		display: none;
-	}
+    .AfruxWidgets-Widget.Afrux-TopPostersWidget {
+        display: none;
+    }
 }
 /* 隐藏手机自定义HTML */
 @media (max-width: 767px) {
-	.AfruxWidgets-Widget.custom-html-widget {
-		display: none;
-	}
+    .AfruxWidgets-Widget.custom-html-widget {
+        display: none;
+    }
 }
 /* 显示主题动作条 */
 @media (min-width: 768px) {
-.no-touch .Post-actions {
-    opacity: 1;
-        }
+    .no-touch .Post-actions {
+        opacity: 1;
+    }
 }
 /* 发布主题按钮渐变 */
 .IndexPage-newDiscussion {
@@ -104,9 +104,9 @@
 }
 /* 用户个人资料隐藏注册时间 */
 @media (min-width: 768px){
-	.UserPage li.item-joined {
-	display: none;
-	}
+    .UserPage li.item-joined {
+        display: none;
+    }
 }
 /* 搜索高亮 */
 mark {
